@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        .business-card {
+            width: 350px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .business-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .business-card h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333333;
+        }
+        .business-card p {
+            margin: 5px 0;
+            color: #666666;
+            font-size: 0.9em;
+        }
+        .business-card a {
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .business-card a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="business-card">
+        <img src="https://via.placeholder.com/100" alt="Profile Picture">
+        <h1>Your Name</h1>
+        <p>Job Title</p>
+        <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+        <a href="#">View Portfolio</a>
+    </div>
+</body>
+</html>

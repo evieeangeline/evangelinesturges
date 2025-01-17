@@ -3,66 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Card</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-        }
-        .business-card {
-            width: 350px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            background-color: #ffffff;
-            text-align: center;
-        }
-        .business-card img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-        .business-card h1 {
-            margin: 0;
-            font-size: 1.5em;
-            color: #333333;
-        }
-        .business-card p {
-            margin: 5px 0;
-            color: #666666;
-            font-size: 0.9em;
-        }
-        .business-card a {
-            display: inline-block;
-            margin-top: 15px;
-            text-decoration: none;
-            color: #ffffff;
-            background-color: #007BFF;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 0.9em;
-        }
-        .business-card a:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <title>Evangeline Sturges</title>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="business-card">
-        <img src="https://via.placeholder.com/100" alt="Profile Picture">
-        <h1>Your Name</h1>
-        <p>Job Title</p>
-        <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
-        <p>Phone: (123) 456-7890</p>
-        <a href="#">View Portfolio</a>
+        <div class="card-content">
+            <div class="profile-image">
+                <img src="profile-photo.jpg" alt="Profile Picture">
+            </div>
+            <h1>Evangeline Sturges</h1>
+            <p>Robotics | Mechatronics | Music Technology</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/evangeline-sturges"><i class="fab fa-linkedin-in"></i></a>
+                <a href="evangelinesturges@outlook.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://github.com/evieeangeline"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

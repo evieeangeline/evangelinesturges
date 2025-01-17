@@ -1,2 +1,0 @@
-# evangelinesturges
-Personal Portfolio
